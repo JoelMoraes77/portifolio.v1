@@ -1,0 +1,45 @@
+<!DOCTYPE html>       <!-- propriedade usada para iniciar com uma estrutura basica de html-->
+
+<html lange="pt-br">  <!-- propriedade usada para definir o idioma trabalhado-->
+
+    <head>            <!-- cabeça-->
+            <title>Portifolio</title> <!-- titulo-->
+    </head>
+
+        <meta charset="UTF-8">        <!--O UTF-8 é um padrão de codificação de caracteres universal-->
+        <meta http-equiv="X-UA-Compatilhe" content="IE=Edge"> <!--especifico para o navegador edge-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--utilizada p controlar visibilidade em diversos dispositivos-->
+        <link rel="stylesheet" href="style.css"> <!-- usado para referenciar o estilo usado pelo arquivo css ao lado-->
+
+    <body>
+        <header class="cabeçalho">
+            <nav class="cabeçalho__menu">
+                <a class="cabeçalho__menu__link" href="index.html">Home</a>
+                <a class="cabeçalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabeçalho__menu__link" href="curriculo.html">Curriculo</a>
+            </nav>
+        </header>
+            <main class="apresentacao">
+                <section class="apresentacao__conteudo">  <!-- ao utilizar o termo class será criado um grupo que poderá ser chamado no css-->
+                    <h1 class="apresentacao__titulo"> <strong> Eleve seu negócio digital a outro nível com um <span>Front-end</span> de qualidade! <!--span para estilizar-->
+                    </strong></h1> <!-- h1 usado para primeiro paragrafo e strong para destaca-lo-->
+
+                    <p class="apresentacao__texto">Olá! Sou Joel dos Santos de Moraes, Desenvolvedor Front-end com especialidade em React, HTML e CSS. 
+                        Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p> <!-- p usado como paragrafo-->
+
+                    <!--button usado para criar botão, diferente o link-->
+                    <a class="button" href="https://github.com/JoelMoraes77">Github</a>
+                    <a class="button" href ="https://linkedin.com/in/01101010j/"> Linkedin</a>
+                    <a class="button" href="https://wa.me/+5549988607667"> Whatsapp</a>
+                </section>
+
+             <div style="text-align: center;"> <!-- centralizar o texto e alinhar, em caso o button-->
+                <img class="apresentacao__imagem" src="noname.png" alt="Imagem do Joel em preto e branco." width="380px" height="380px"> <!-- imagem com tamanhos definidos-->
+              
+             </div>   
+            </main>
+                 <footer> <!-- rodape, final da pagina-->
+                    <h5>Developed by Joel dos Santos de Moraes</h5>
+                </footer>
+    </body>
+</html>
